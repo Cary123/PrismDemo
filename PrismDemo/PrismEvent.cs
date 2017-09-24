@@ -7,16 +7,34 @@ using Prism.Events;
 
 namespace PrismDemo
 {
-    public class OpenFormEvent :PubSubEvent
+    public class OpenABScreenEvent :PubSubEvent
     {
     }
-    public class CloseFormEvent : PubSubEvent
+
+    public class CloseABFormEvent : PubSubEvent
     {
+
     }
+
     public class SynchronizeABEvent : PubSubEvent
     {
+
     }
-    public class ReloadFormEvent : PubSubEvent
+
+    public class OpenMainScreenEvent : PubSubEvent
+    {
+
+    }
+
+    public class CloseMainFormEvent : PubSubEvent
+    {
+
+    }
+
+    public class SynchronizeMainEvent : PubSubEvent
     {
     }
+
+
+    
 }
